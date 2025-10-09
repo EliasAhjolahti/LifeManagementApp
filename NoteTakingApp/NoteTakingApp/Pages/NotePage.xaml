@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="NoteTakingApp.Pages.NotePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Edit Note">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="OnSave" Priority="0" />
+        <ToolbarItem Text="Delete" Clicked="OnDelete" Priority="1" />
+        <ToolbarItem Text="Share" Clicked="OnShare" Priority="2" />
+    </ContentPage.ToolbarItems>
+
+    <Grid Padding="16" RowDefinitions="Auto,*,Auto">
+        <Label Text="{Binding Date, StringFormat='Last modified: {0:G}'}" />
+        <Editor Grid.Row="1" Text="{Binding Text}" AutoSize="TextChanges" />
+        <Label Grid.Row="2" Text="{Binding FileName}" FontSize="12"
+               TextColor="{DynamicResource SecondaryTextColor}" />
+    </Grid>
+</ContentPage>

@@ -1,10 +1,11 @@
-﻿namespace NoteTakingApp
+﻿namespace NoteTakingApp;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+        // Route to the editor page
+        Routing.RegisterRoute(nameof(Pages.NotePage), typeof(Pages.NotePage));
     }
 }

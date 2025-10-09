@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="NoteTakingApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:NoteTakingApp"
-    Title="NoteTakingApp">
+    xmlns:local="clr-namespace:NoteTakingApp">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <!-- Main list page -->
+    <ShellContent Title="Notes" ContentTemplate="{DataTemplate local:MainPage}" />
 </Shell>
