@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g3wP7SQF/kw=",
+  "dgSpecHash": "uXs+DL/oVc0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Omistaja\\source\\repos\\LifeManagementApp\\NoteTakingApp\\NoteTakingApp\\NoteTakingApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Omistaja\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\Omistaja\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
     "C:\\Users\\Omistaja\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
     "C:\\Users\\Omistaja\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
