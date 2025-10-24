@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NoteTakingApp</name>
+    </assembly>
+    <members>
+        <member name="T:NoteTakingApp.ViewModels.NoteViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.Title">
+            <inheritdoc cref="F:NoteTakingApp.ViewModels.NoteViewModel.title"/>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.Text">
+            <inheritdoc cref="F:NoteTakingApp.ViewModels.NoteViewModel.text"/>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.FileName">
+            <inheritdoc cref="F:NoteTakingApp.ViewModels.NoteViewModel.fileName"/>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.Date">
+            <inheritdoc cref="F:NoteTakingApp.ViewModels.NoteViewModel.date"/>
+        </member>
+        <member name="F:NoteTakingApp.ViewModels.NoteViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:NoteTakingApp.ViewModels.NoteViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NoteTakingApp.ViewModels.NoteViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:NoteTakingApp.ViewModels.NoteViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:NoteTakingApp.ViewModels.NoteViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NoteTakingApp.ViewModels.NoteViewModel.Delete"/>.</summary>
+        </member>
+        <member name="F:NoteTakingApp.ViewModels.NoteViewModel.shareNoteCommand">
+            <summary>The backing field for <see cref="P:NoteTakingApp.ViewModels.NoteViewModel.ShareNoteCommand"/>.</summary>
+        </member>
+        <member name="P:NoteTakingApp.ViewModels.NoteViewModel.ShareNoteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NoteTakingApp.ViewModels.NoteViewModel.ShareNote"/>.</summary>
+        </member>
+        <member name="T:NoteTakingApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FileName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FileName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FileName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FileName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+    </members>
+</doc>
